@@ -1,0 +1,52 @@
+// import React, { useState } from 'react'
+
+// const FetchingData = async ({URL}) => {
+//     const [countries, setCountries] = useState([]);
+//     const [loading, setLoading] = useState(true);
+//     const [error, setError] = useState('');  
+
+//     try {
+//         const res = await fetch(`${URL}/all`);
+
+//         if (!res.ok) throw new Error('The data are deleted');
+
+//         const data = await res.json();
+//         // console.log(data);
+        
+//         setCountries(data)
+
+//         setLoading(false)
+
+//     } catch (error) {
+//         setLoading(false)
+//         setError(error.message)
+//     }
+
+//     return (
+//         <div>
+            
+//         </div>
+//     )
+// }
+
+// export default FetchingData
+
+
+// import React from 'react'
+// import { ApiURL } from '../util/Api';
+// import FetchingData from '../util/FetchingData';
+
+// function AllCountries() {
+//   return (
+//     <div className='all__country__wrapper'>
+//       <div className="country__top">
+//         <FetchingData URL={ApiURL} />
+//       </div>
+//       <div className="country__bottom">
+
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default AllCountries
