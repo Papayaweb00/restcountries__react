@@ -1,0 +1,1 @@
+export const fetchAPI = 'https://restcountries.com/v3.1'
